@@ -18,5 +18,16 @@
     "socat"
   ],
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "tcp": "bin/tcp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhermsmeier/node-tcp-shell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-tcp-shell/issues"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-tcp-shell"
 }
