@@ -1,0 +1,22 @@
+{
+  "name": "tcp-shell",
+  "version": "1.0.0",
+  "description": "TCP Shell REPL",
+  "dependencies": {
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tcp",
+    "shell",
+    "repl",
+    "nc",
+    "netcat",
+    "socat"
+  ],
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com>",
+  "license": "MIT"
+}
