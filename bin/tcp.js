@@ -77,7 +77,7 @@ socket.on( 'timeout', function() {
 
 socket.on( 'close', function() {
   log( '' )
-  log( '[CONNECTION:CLOSE]' )
+  log( '[CONNECTION:CLOSED]' )
   process.exit()
 })
 
