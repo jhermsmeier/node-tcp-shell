@@ -6,23 +6,31 @@ var REPL = require( 'repl' )
 
 var log = console.log.bind( console )
 
-log( '' )
-
 var options = require( 'optimist' )
   .usage( 'Usage: tcp <port> <host>' )
+  .boolean( 'version' )
+  .describe( 'version', 'Display version number' )
   .boolean( 'help' )
   .describe( 'help', 'Display this usage help' )
   .boolean( 'tls' )
-  .describe( 'tls', 'Enable TLS' )
+  .describe( 'tls', 'Use TLS / SSL' )
   .boolean( 'crlf' )
   .describe( 'crlf', 'Use <CRLF> as EOL' )
   .alias({
     help: 'h',
     tls: 's',
     crlf: 'c',
+    version: 'v'
   })
 
 var argv = options.argv
+
+if( argv.version ) {
+  log( require( '../package' ).version )
+  return
+}
+
+log( '' )
 
 if( argv._.length === 0 || argv.help ) {
   return options.showHelp()
