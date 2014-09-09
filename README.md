@@ -12,9 +12,10 @@ $ npm install --global tcp-shell
 Usage: tcp <port> <host>
 
 Options:
-  --help, -h  Display this usage help
-  --tls, -s   Enable TLS
-  --crlf, -c  Use <CRLF> as EOL
+  --version, -v  Display version number
+  --help, -h     Display this usage help
+  --tls, -s      Use TLS / SSL
+  --crlf, -c     Use <CRLF> as EOL
 ```
 
 ## Example
