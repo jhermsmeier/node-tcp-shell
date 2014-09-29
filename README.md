@@ -1,4 +1,6 @@
 # TCP Shell
+[![npm](http://img.shields.io/npm/v/tcp-shell.svg?style=flat)](https://npmjs.org/tcp-shell)
+[![npm downloads](http://img.shields.io/npm/dm/tcp-shell.svg?style=flat)](https://npmjs.org/tcp-shell)
 
 ## Install via [npm](https://npmjs.org)
 
